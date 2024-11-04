@@ -1,0 +1,57 @@
+
+#grid
+{
+    display: grid;
+    grid-gap: 10px;
+    background-color: black;
+    grid-template-areas:'header header header header header'
+                        'menu main main right right'
+                        'menu footer footer footer footer';
+    padding: 5px;
+    height: 700px;
+}
+.item1
+{
+    grid-area:header;
+    background-color:white;
+    text-align:center;
+    padding:10px;
+    font-size:225px;
+    background-image:url(spider.jfif);
+}
+.item2
+{
+    grid-area:menu;
+    background-color:white;
+    text-align:center;
+    padding:10px;
+    font-size:225px;
+    background-image:url(nick.jfif)
+}
+.item3
+{
+    grid-area:main;
+    background-color:white;
+    text-align:center;
+    padding:10px;
+    font-size:225px;
+    background-image:url(vijay.jfif);
+}
+.item4
+{
+    grid-area:right;
+    background-color:white;
+    text-align:center;
+    padding:10px;
+    font-size:225px;
+    background-image:url(panda.jfif);
+}
+.item5
+{
+    grid-area:footer;
+    background-color:white;
+    text-align:center;
+    padding:10px;
+    font-size:225px;
+    background-image:url(ms.jfif);
+}
